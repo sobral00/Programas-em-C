@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//VersÃ£o 1.0.0
 
-void calc(){ //Cria a função calculo do IMC
+void calc(){ //Cria a funÃ§Ã£o calculo do IMC
 
- float alt,alt1,peso,result; // Declaração das variaveis altura,altura1 que é a altura elevada ao quadrado, so peso e o resultado do calculo
+ float alt,alt1,peso,result; // DeclaraÃ§Ã£o das variaveis altura,altura1 que Ã© a altura elevada ao quadrado, so peso e o resultado do calculo
 
  printf("\nInsira sua altura: \n"); // pede para o usuario inserir a altura
     scanf("%f",&alt); // liga a entrada do usuario a variavel alt
@@ -39,27 +40,27 @@ void calc(){ //Cria a função calculo do IMC
     }
     system("pause"); // pausa o programa nesse estado
     system("cls"); // limpa a tela
-    menu(); // volta a função menu
+    menu(); // volta a funÃ§Ã£o menu
 
 }
 
-void menu() // Função menu
+void menu() // FunÃ§Ã£o menu
 {
-int x; //declaração da variavel x
+int x; //declaraÃ§Ã£o da variavel x
 
     printf("---------------\n"); //meramente decorativo
     printf("Calculadora IMC\n"); //meramente decorativo
     printf("---------------\n\n");//meramente decorativo
 
-    printf("1 - Calcular IMC\n"); // lista de ações que o usuario pode escolher
+    printf("1 - Calcular IMC\n"); // lista de aÃ§Ãµes que o usuario pode escolher
     printf("2 - Sair\n\n");
-    printf("Insira sua acao: \n"); // entrada da ação do usuario que usara a variavel x
+    printf("Insira sua acao: \n"); // entrada da aÃ§Ã£o do usuario que usara a variavel x
     scanf("%i",&x); // atribui a entrada do usuario a variavel x
 
 switch (x) //o que vai acontecer dependendo da entrada da variavel x
     {
 
-    case 1: // caso escolha 1 ele ira iniciar a função calc
+    case 1: // caso escolha 1 ele ira iniciar a funÃ§Ã£o calc
         calc();
         break; //termina esse case
 
@@ -79,10 +80,10 @@ switch (x) //o que vai acontecer dependendo da entrada da variavel x
     }
 }
 
-int main() //função principal
+int main() //funÃ§Ã£o principal
 {
 
-    menu(); //chama a função menu
+    menu(); //chama a funÃ§Ã£o menu
 
     system("pause");
     return 0;
