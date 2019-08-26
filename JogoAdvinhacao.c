@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Versão 1.0.0
+
 void jogo()
 {
   int n,x;
