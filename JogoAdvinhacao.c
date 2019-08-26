@@ -4,7 +4,7 @@
 void jogo()
 {
   int n,x;
-    srand(time(0)); //dertimina um seed inicial de acordo com a hora para sortiar o numero
+    srand(time(0)); //dertimina um seed inicial de acordo com a hora para sortear o numero
     n=rand()%10;
 
     printf("------------------\n");
