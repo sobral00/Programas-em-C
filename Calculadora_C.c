@@ -2,9 +2,10 @@
 #include <stdlib.h> //biblioteca
 #define _MATH_H //biblioteca
 
+//Vers√£o 1.0.0
 
 void soma(){ //funcao de soma
-    float valor1, valor2, result; //declaraÁ„o de variaveis
+    float valor1, valor2, result; //declara√ß√£o de variaveis
     printf("\nDigite o 1 valor: "); //pede um valor
     scanf ("%f", &valor1); //armazena o valor
     printf("Digite o 2 valor: "); //pede outro valor
@@ -15,7 +16,7 @@ void soma(){ //funcao de soma
     system("cls"); //limpa a tela
     menu(); //chama o menu novamente
 }
-void subtrai(){ //funcao subtraÁ„o
+void subtrai(){ //funcao subtra√ß√£o
     float valor1, valor2, result; //variaveis
     printf("\nDigite o 1 valor: "); //pedi variavel
     scanf ("%f", &valor1); //armazena variavel
