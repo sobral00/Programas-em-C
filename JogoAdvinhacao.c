@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Versão 1.1.0
+//Versão 1.1.1
 
 void intro()
 {
@@ -11,11 +11,11 @@ void intro()
 
     printf("Bem vindo Ao Jogo da Advinhacao\n\n");
 
-    printf("Escolha um numero entre 0 e 10\n");
-    printf("O computador ira escolher um numero\n");
-    printf("se voce escolher o mesmo voce ganha\n");
-    printf("senao voce perde, simples assim!!\n");
-    printf("boa sorte e se divirta!\n\n");
+    printf("Escolha um numero entre 0 e 10.\n");
+    printf("O computador ira escolher um numero,\n");
+    printf("se voce escolher o mesmo voce ganha.\n");
+    printf("Senao voce perde, simples assim!\n");
+    printf("Boa sorte e se divirta!\n\n");
 
     system("pause");
     system("cls");
