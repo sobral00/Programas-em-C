@@ -22,14 +22,21 @@ void menu()
     printf ("2 - Sair\n\n");
     printf ("Insira sua acao!\n");
     scanf("%i",&escolha);
+    setbuf(stdin,NULL);
 
-    switch (escolha)
+    if (escolha == 1)
     {
-    case 1: system("cls"); jogo(); break;
+    system("cls");
+    jogo();
 
-    case 2: printf("\nFinalizando...\n\n"); system("exit"); break;
-
-    default: printf("\nComando invalido, tente novamente!\n\n"); system ("pause"); system ("cls"); menu(); break;
+    }else{
+    if(escolha == 2)
+    {
+    printf("\nFinalizando...\n\n");
+    exit(0);
+    }else{
+    printf("\nComando invalido, tente novamente!\n\n"); system ("pause"); system ("cls"); menu();
+    }
     }
 
 }
@@ -47,6 +54,7 @@ void jogo()
     printf ("3 - Tesoura\n");
     printf ("0 - Menu\n");
     scanf ("%i", &jogador);
+    setbuf(stdin,NULL);
     if (jogador == 0)
     {
         system("cls");
