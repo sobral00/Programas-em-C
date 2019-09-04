@@ -9,8 +9,10 @@ void calc(){ //Cria a função calculo do IMC
 
  printf("\nInsira sua altura: \n"); // pede para o usuario inserir a altura
     scanf("%f",&alt); // liga a entrada do usuario a variavel alt
+    setbuf(stdin,NULL);
     printf("Insira seu peso: \n"); // pede para o usuario inserir o peso
     scanf("%f",&peso); // liga a entrada do usuario a variavel peso
+    setbuf(stdin,NULL);
     alt1 = alt*alt; // eleva a altura ao quadrado
     result = peso/alt1; // calcula o IMC
     printf("Seu IMC e %.2f\n",result); //Apresenta o resultado do IMC do usuario
@@ -56,6 +58,7 @@ int x; //declaração da variavel x
     printf("2 - Sair\n\n");
     printf("Insira sua acao: \n"); // entrada da ação do usuario que usara a variavel x
     scanf("%i",&x); // atribui a entrada do usuario a variavel x
+    setbuf(stdin,NULL);
 
 switch (x) //o que vai acontecer dependendo da entrada da variavel x
     {
@@ -66,7 +69,7 @@ switch (x) //o que vai acontecer dependendo da entrada da variavel x
 
     case 2: // caso escolha 2 fecha o programa
         printf("\nFinalizando...\n\n");
-        system("exit");
+        exit(0);
         break;
 
     default: // caso o usuario escolha algo diferente da lista mostra mensagem abaixo
