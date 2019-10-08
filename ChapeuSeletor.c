@@ -71,7 +71,7 @@ pontos+=1;
     }
 }
 system("cls"); //apaga a tela
-printf("Depois de alguns dias você esculta por acidente uma conversa no Caldeirão Furado e descobre que aquele fantasma\n");
+printf("Depois de alguns dias você escuta por acidente uma conversa no Caldeirão Furado e descobre que aquele fantasma\n");
 printf("era o fantasma de um garoto que foi assassinado por um outro garoto que ainda estava fugindo do ministério da magia!O que você faz?\n");
 printf("1-Você pergunta na localidade se alguem sabe algo mais sobre o que aconteceu.\n");
 printf("2-Você resmunga: antes ele do que eu.\n");
@@ -153,7 +153,7 @@ pontos+=1;
     }
 }
 system("cls"); //apaga a tela
-printf("O culpado é preso e fantasma aparece para lhe agradecer, o que você faz?\n");
+printf("O culpado é preso e o fantasma aparece para lhe agradecer, o que você faz?\n");
 printf("1-Você pede que ele não lhe encomode mais.\n");
 printf("2-Você sorri para ele e o deseja um bom descanço.\n");
 printf("3-Você acena com a cabeça a vai para casa.\n");
