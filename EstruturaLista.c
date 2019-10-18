@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 int lista[5],x;
 
@@ -27,11 +28,11 @@ void remover(){
 
 void exibir(){
     printf("Lista de valores:\n");
-    printf("%d\n",lista[0]);
-    printf("%d\n",lista[1]);
-    printf("%d\n",lista[2]);
-    printf("%d\n",lista[3]);
-    printf("%d\n",lista[4]);
+    printf("1º - %d\n",lista[0]);
+    printf("2º - %d\n",lista[1]);
+    printf("3º - %d\n",lista[2]);
+    printf("4º - %d\n",lista[3]);
+    printf("5º - %d\n",lista[4]);
     system ("pause");
     system ("cls");
     menu();
@@ -69,5 +70,6 @@ void menu(){
 }
 
 void main(){
+    setlocale(LC_ALL, "Portuguese");
     menu();
 }
